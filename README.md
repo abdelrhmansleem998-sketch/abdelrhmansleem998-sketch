@@ -17,7 +17,7 @@ Independent bug bounty hunter and security researcher (handle: **virusboda** on 
 
 ## Skills
 
-- **Languages & scripting:** C++, Python, Bash, JavaScript, HTML/CSS
+- **Languages & scripting:** C++, Python, Java, Bash, JavaScript, HTML/CSS
 - **Security:** web application penetration testing, OSINT, reconnaissance and attack surface mapping, hashing/encoding basics, network attacks basics, reporting
 - **Systems & networking:** Linux, Windows Server administration basics, networking fundamentals
 - **Web/backend:** Node.js, Express, web fundamentals
