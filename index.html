@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="virusboda — Abdelrhman Selim, Web Security Researcher and Bug Bounty Hunter.">
+  <meta property="og:title" content="virusboda — Abdelrhman Selim">
+  <meta property="og:description" content="Web Security Researcher · Bug Bounty Hunter · Offensive Security">
+  <title>virusboda — Web Security Researcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="nav">
+    <a class="brand" href="#home"><span>./</span>virusboda</a>
+    <nav>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#skills" data-i18n="nav.skills">Skills</a>
+      <a href="#experience" data-i18n="nav.experience">Experience</a>
+      <a href="#projects" data-i18n="nav.projects">Projects</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="lang" class="icon-btn" aria-label="Switch language">AR</button>
+      <button id="theme" class="icon-btn" aria-label="Toggle theme">☾</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span><span data-i18n="hero.status">Web Security Researcher · Bug Bounty Hunter</span></p>
+        <h1><span class="muted">Hey, I'm</span><br>Abdelrhman <span class="accent">Selim.</span></h1>
+        <p class="hero-text" data-i18n="hero.text">I explore web applications, find security weaknesses, and turn technical findings into clear, reproducible reports.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#experience" data-i18n="hero.cta">Explore my work</a>
+          <a class="btn ghost" href="https://github.com/abdelrhmansleem998-sketch" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="terminal">
+        <div class="terminal-bar"><i></i><i></i><i></i><span>~/virusboda</span></div>
+        <div class="terminal-body">
+          <div><b>$</b> whoami</div>
+          <div class="output">virusboda</div>
+          <div><b>$</b> focus --current</div>
+          <div class="output">Web Security / AppSec</div>
+          <div><b>$</b> hunt --targets</div>
+          <div class="output">Web · APIs · Business Logic</div>
+          <div><b>$</b> status</div>
+          <div class="success">● learning + hunting</div>
+          <span class="cursor"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-head"><span>01</span><h2 data-i18n="about.title">About me</h2></div>
+      <div class="about-grid">
+        <div><p class="lead" data-i18n="about.lead">I'm a Computer Science student focused on cybersecurity, with a practical interest in Web Security and Bug Bounty.</p></div>
+        <div class="facts">
+          <div><span data-i18n="about.education">Education</span><strong>Faculty of Computers & Information<br>Suez Canal University — Ismailia</strong></div>
+          <div><span data-i18n="about.focus">Primary focus</span><strong>Web Pentesting · AppSec<br>Offensive Security</strong></div>
+          <div><span data-i18n="about.platforms">Practice</span><strong>HackerOne · Bugcrowd<br>HTB · TryHackMe · PortSwigger</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-head"><span>02</span><h2 data-i18n="skills.title">Security stack</h2></div>
+      <div class="skill-grid">
+        <article class="card featured"><small>01</small><h3>Web Security</h3><p>XSS · SQLi · IDOR · XXE · LFI · SSRF · File Upload · Information Disclosure</p></article>
+        <article class="card"><small>02</small><h3>API & Access Control</h3><p>API Testing · Authentication · Broken Access Control · Business Logic</p></article>
+        <article class="card"><small>03</small><h3>Recon & OSINT</h3><p>Recon workflows · OSINT · Attack surface discovery · GitHub research</p></article>
+        <article class="card"><small>04</small><h3>Offensive Security</h3><p>Web Pentesting · Network Attacks basics · Security Fundamentals</p></article>
+        <article class="card"><small>05</small><h3>Development</h3><p>C++ · Java · Python · Bash · JavaScript · Node.js · Express</p></article>
+        <article class="card"><small>06</small><h3>Systems & Networking</h3><p>Linux · Networking basics · Windows Server Administration · Databases</p></article>
+      </div>
+    </section>
+
+    <section id="experience" class="section container">
+      <div class="section-head"><span>03</span><h2 data-i18n="experience.title">Experience</h2></div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div><span class="date">ONGOING</span><h3 data-i18n="experience.h1">Bug Bounty Hunting</h3><p data-i18n="experience.h1text">Hands-on testing across live programs, private programs, and vulnerability disclosure programs. Focused on finding reproducible web and API security issues and writing clear reports.</p><div class="tags"><span>HackerOne</span><span>Bugcrowd</span><span>Recon</span><span>Reporting</span></div></div>
+        </div>
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div><span class="date">LEARNING</span><h3 data-i18n="experience.study">Cybersecurity & Web Pentesting</h3><p data-i18n="experience.studytext">Self-study through CS50, OSCP-oriented content, Hegazy Web Pentesting, PortSwigger Academy, Hack The Box and TryHackMe.</p><div class="tags"><span>OSCP</span><span>CS50</span><span>PortSwigger</span><span>HTB</span><span>THM</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-head"><span>04</span><h2 data-i18n="projects.title">Selected work</h2></div>
+      <div class="project-grid">
+        <a class="project" href="https://github.com/abdelrhmansleem998-sketch/rofixa" target="_blank" rel="noreferrer"><span>↗</span><small>PRODUCT</small><h3>Rofixa</h3><p>Apartment finishing SaaS concept with BOQ generation and AI savings guidance.</p></a>
+        <a class="project" href="https://github.com/abdelrhmansleem998-sketch/Vulnerabilities" target="_blank" rel="noreferrer"><span>↗</span><small>SECURITY</small><h3>Vulnerabilities</h3><p>Security research and vulnerability notes organized for practical learning.</p></a>
+        <a class="project" href="https://github.com/abdelrhmansleem998-sketch/Cybersecurity-notes" target="_blank" rel="noreferrer"><span>↗</span><small>KNOWLEDGE</small><h3>Cybersecurity Notes</h3><p>Practical cybersecurity notes, references and study material.</p></a>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-head"><span>05</span><h2 data-i18n="learning.title">Currently learning</h2></div>
+      <div class="marquee-wrap"><div class="marquee"><span>Web Pentesting</span><b>•</b><span>OWASP</span><b>•</b><span>Java OOP</span><b>•</b><span>API Security</span><b>•</b><span>OSCP</span><b>•</b><span>Red Teaming</span><b>•</b><span>Web3 Security</span></div></div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <p class="eyebrow">06 / CONTACT</p>
+      <h2 data-i18n="contact.title">Let's connect.</h2>
+      <p data-i18n="contact.text">Interested in security research, collaboration, or just want to talk tech?</p>
+      <a class="email" href="mailto:abdelrhmansleem998@gmail.com">abdelrhmansleem998@gmail.com ↗</a>
+      <div class="socials">
+        <a href="https://github.com/abdelrhmansleem998-sketch" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://hackerone.com/virusboda" target="_blank" rel="noreferrer">HackerOne</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> virusboda</span><span>Built with curiosity & caffeine.</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
